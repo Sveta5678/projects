@@ -364,7 +364,13 @@ background-color: #f90;
   flex: 1 1 50%;
 }
 
-.about__content-img {}
+.about__content-img {
+    min-height: 100%;
+    object-fit: cover;
+    border-radius: 32px;
+    width: 100%;
+    
+  }
 
 .about__content-inner {
   background: rgba(0, 0, 0, 0.5);
@@ -374,7 +380,7 @@ background-color: #f90;
   align-items: center;
   padding: 50px;
   position: absolute;
-  bottom: 5px;
+  bottom: 0;
   width: 100%;
 }
 
