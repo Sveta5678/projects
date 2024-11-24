@@ -9,6 +9,9 @@
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css">
+
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
     <title>Evklid</title>
   </head>
   <body>
@@ -17,6 +20,10 @@
         <div class="header__wrapper">
           <img class="header__logo" src="img/logo.svg" alt="Logo" />
           <nav class="nav">
+            <button class="nav__burger btn-reset">
+              <span class="burger__line"></span>
+              
+            </button>
             <ul class="nav__list list-reset">
               <li class="nav__item">
                 <a href="#about" class="nav__link">О нас</a>
@@ -111,6 +118,7 @@
         <div class="about__content">
           <div class="about__content-left">
             <picture>
+              <source media="(max-width:1024px )" srcset="img/about/builder-1024.jpg">
               <img
                 class="about__content-img"
                 src="img/about/builder.jpg"
@@ -193,7 +201,9 @@
           </div>
           <div class="work__right">
             <picture>
+              
               <source media="(min-width:1440px )" srcset="img/work/work.jpg" />
+              <source media="(max-width:1024px )" srcset="img/work/work-1024.jpg">
               <img srcset="img/work/work.jpg" alt="Ноутбук" />
             </picture>
           </div>
@@ -339,7 +349,7 @@
                 class="footer__form-textarea"
                 placeholder="Сообщение"
               ></textarea>
-              <button class="footer__form-btn site-button">
+              <button class="footer__form-btn site-button ">
                 Отправить данные
               </button>
             </form>
