@@ -7,7 +7,6 @@
     bottom: 5px;
   }
 
-
   .work__right {
     display: flex;
     justify-content: center;
@@ -34,19 +33,20 @@
   }
 
   .hero-content {
-    padding: 160px 0 0 80px;
+    padding: 160px 77px 0 80px;
   }
 
   .hero__title {
     font-size: 60px;
     line-height: 72px;
     margin-bottom: 18px;
+    max-width: 770px;
   }
 
   .hero__descr {
     font-size: 20px;
     line-height: 24px;
-    max-width: 780px;
+    max-width: 660px;
     margin-bottom: 59px;
   }
 
@@ -86,7 +86,6 @@
   .work {
     padding-bottom: 81px;
   }
-
 
   .questions {
     padding-bottom: 81px;
@@ -144,4 +143,397 @@
     position: relative;
     z-index: 11;
   }
+}
+
+@media (max-width: 768px) {
+  .header__wrapper {
+    height: 69px;
+  }
+
+  .header__logo {
+    width: 150px;
+  }
+
+  .hero__title {
+    font-size: 50px;
+    line-height: 61px;
+  }
+
+  .hero-content {
+    padding: 160px 0 0 40px;
+  }
+
+  .hero__descr {
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 588px;
+    margin-bottom: 61px;
+  }
+
+  .swiper-slide {
+    border-radius: 24px;
+  }
+
+  .hero {
+    height: 662px;
+  }
+
+  .about__title {
+    line-height: 53px;
+    margin-bottom: 21px;
+  }
+
+  .about__text {
+    margin-bottom: 54px;
+  }
+
+  .about__content-img {
+    border-radius: 24px;
+  }
+
+  .about__content-inner {
+    padding: 34px 40px;
+  }
+
+  .about__content-text {
+    max-width: 366px;
+  }
+
+  .about__content-btn {
+    padding: 18px 36px;
+  }
+
+  .about__content-item {
+    background-size: 114px 99px;
+    background-position: 40px 63px;
+    min-height: 235px;
+    padding: 35px 0 35px 170px;
+  }
+
+  .about__content-title {
+    max-width: 452px;
+  }
+
+  .work__list {
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+
+  .work__content {
+    flex-direction: column-reverse;
+    gap: 35px;
+  }
+
+  .work__left-text {
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .work {
+    padding-bottom: 50px;
+  }
+
+  .questions__item {
+    padding: 34px 0;
+  }
+
+  .questions__item:nth-child(even) {
+    padding: 35px 0;
+  }
+
+  .questions__heading {
+    font-size: 20px;
+    max-width: 570px;
+  }
+
+  .questions {
+    padding-bottom: 113px;
+  }
+
+  .footer__nav {
+    display: none;
+  }
+
+  .footer__content {
+    flex-direction: column-reverse;
+  }
+
+  .footer__logo {
+    margin-bottom: 12px;
+  }
+
+  .footer__form {
+    width: 540px;
+    margin-bottom: 50px;
+  }
+}
+
+@media (width <=576px) {
+  .header__logo {
+    width: 110px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .hero__title {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+
+  .hero__descr {
+    margin-bottom: 32px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .hero__button {
+    padding: 6px 28px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+
+  .hero {
+    margin: 30px 0 60px 0;
+    height: 308px;
+  }
+
+  .hero-content {
+    padding: 60px 21px 59px 4px;
+    text-align: center;
+  }
+
+  .swiper-slide {
+    border-radius: 16px;
+  }
+
+  .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    opacity: 1;
+    background: var(--grey-color);
+  }
+
+  .swiper-pagination {
+    margin-bottom: 3px;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+
+    font-size: 24px;
+  }
+
+  .site-title {
+    font-size: 24px;
+    line-height: 29px;
+  }
+
+  .about__text {
+    font-size: 14px;
+    line-height: 200%;
+    margin-bottom: 14px;
+  }
+
+  .about__content-inner {
+    background: none;
+  }
+
+  .about__content-text {
+    width: 100%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 200%;
+    color: #000;
+    margin-bottom: 12px;
+  }
+
+  .about__content-left {}
+
+  .about__content-inner {
+    position: static;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  .about__content-btn {
+    padding: 10px 41px;
+    border-radius: 8px;
+    align-self: flex-start;
+    color: #f90;
+    font-size: 12px;
+  }
+
+  .about__content-btn:hover {
+    color: #fff;
+  }
+
+  .about__content-img {
+    border-radius: 16px;
+    margin-bottom: 4px;
+  }
+
+  .about__content-item {
+    border: none;
+    background-size: 64px 49px;
+    padding: 62px 0 0;
+    background-position: 0 0;
+  }
+
+  .about__content-title {
+    line-height: 22px;
+
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 4px;
+  }
+
+  .about__content-descr {
+    font-size: 14px;
+    line-height: 200%;
+  }
+
+  .about {
+    padding-bottom: 60px;
+  }
+
+  .work__btn {
+    font-size: 14px;
+  }
+
+  .work__list {
+    gap: 44px;
+  }
+
+  .work__title {
+    margin-bottom: 19px;
+  }
+
+  .work__list {
+    margin-bottom: 5px;
+  }
+
+  .work__left-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 178%;
+
+    margin-bottom: 8px;
+  }
+
+  .work__content {
+    gap: 12px;
+  }
+
+  .work__left-text {
+    font-size: 14px;
+  }
+
+  .work__left-btn {
+    padding: 12px 44px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+
+  .work__left-btn--border {
+    padding: 12px 32px;
+  }
+
+  .work__left-btns {
+    gap: 8px;
+  }
+
+  .work {
+    padding-bottom: 61px;
+  }
+
+  .questions__heading {
+    font-size: 14px;
+    max-width: 260px;
+    line-height: 177%;
+  }
+
+  .questions__title {
+    margin-bottom: 16px;
+  }
+
+  .questions__item {
+    padding: 30px 0;
+  }
+
+  .questions__icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .questions__icon::after {
+    width: 1px;
+    height: 18.6px;
+  }
+
+  .questions__icon::before {
+    width: 18.6px;
+    height: 1px;
+  }
+
+  .questions__item:nth-child(even) {
+    padding: 28px 0;
+  }
+
+  .questions {
+    padding-bottom: 60px;
+  }
+
+  .footer {
+    padding: 33px 0;
+  }
+
+  .footer__form {
+    width: 100%;
+    gap: 23px;
+    border-bottom: 1px solid #414141;
+    margin-bottom: 16px;
+  }
+
+  .footer__form-input::placeholder {
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .footer__form-btn {
+    padding: 12px 28px;
+    font-size: 12px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+  }
+
+  .footer__form-textarea {
+
+    margin-bottom: 3px;
+
+  }
+
+  .footer__left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__logo {
+    width: 131px;
+  }
+
+  .footer__social-icon svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  .footer__social {
+
+    gap: 14px;
+  }
+
+
 }
