@@ -1,6 +1,51 @@
+@font-face {
+  font-family: "Muller";
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/Muller-Trial-LightItalic.woff2"),
+    url("../fonts/Muller-Trial-LightItalic.woff");
+}
+
+@font-face {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Muller-Trial-Regular.woff2"),
+    url("../fonts/Muller-Trial-Regular.woff");
+}
+
+@font-face {
+  font-family: "Muller";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Muller-Trial-RegularItalic.woff2"),
+    url("../fonts/Muller-Trial-RegularItalic.woff");
+}
+
+@font-face {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Muller-Trial-Medium.woff2"),
+    url("../fonts/fonts/Muller-Trial-Medium.woff");
+}
+
+@font-face {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/Muller-Trial-Bold.woff2"),
+    url("../fonts/Muller-Trial-Bold.woff");
+}
+
 html {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -11,7 +56,7 @@ body {
 *::before,
 *::after {
   -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 h1,
@@ -30,76 +75,133 @@ a {
 img {
   max-width: 100%;
 }
+
 :root {
-	--white: #fff;
-	--primary: #6d31ee;
-	--primary-shade: #4f28a5;
-	--primary-light: #aa9dfa;
-	--light-color: #e6e8ec;
-	--text-gray: #a1a6b4;
-	--shade-gray: #d2d5dd;
-	--light-color-400: rgba(230, 232, 236, 0.4);
-	--black: #121723;
-	--light-black: #292e39;
-	--red: #ff6f6f;
-	--promo-color: #f0d288;
-	--promo-color-shade: #bb973e;
+  --white: #fff;
+  --primary: #6d31ee;
+  --primary-shade: #4f28a5;
+  --primary-light: #aa9dfa;
+  --light-color: #e6e8ec;
+  --text-gray: #a1a6b4;
+  --shade-gray: #d2d5dd;
+  --light-color-400: rgba(230, 232, 236, 0.4);
+  --black: #121723;
+  --light-black: #292e39;
+  --red: #ff6f6f;
+  --promo-color: #f0d288;
+  --promo-color-shade: #bb973e;
 }
-.list-reset{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
+
 .btn-reset {
-
-    padding: 0;
-    background-color: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
+  padding: 0;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
 }
 
-
-.container{
+.container {
   max-width: 1110px;
   margin: 0 auto;
   width: 100%;
 }
 
-
-  .header__wrapper{
-   display:flex;
-   align-items: center;
-   padding: 32px 0 ;
-  
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 32px 0;
 }
+
 .nav__list {
   display: flex;
   gap: 61.75px;
-  
 }
+
 .nav {
   margin-right: auto;
 }
+
 .header__logo {
   margin-right: 80px;
 }
-.nav__link{
-font-size: 20px;
-color: var(--black);
-transition: 0.3s;
-outline: none;
 
+.nav__link {
+  font-size: 20px;
+  color: var(--black);
+  transition: 0.3s;
+  outline: none;
 }
 
 .nav__link:hover {
   color: var(--primary);
 }
+
 .nav__link:focus-visible {
   color: var(--white);
-  background-color: var(--primary-light); 
+  background-color: var(--primary-light);
   padding: 4px 10px;
 }
+
 .nav__link:active {
   color: var(--primary-shade);
+}
+
+/* hero */
+.hero {
+  padding: 94px 0;
+}
+
+.hero__content {}
+
+.hero__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 100%;
+  color: var(--black);
+  margin-bottom: 14px;
+}
+
+.hero__title-cursive {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: var(--black);
+  max-width: 635px;
+  margin-bottom: 45px;
+}
+
+.hero__btn {
+  padding: 22px 54px;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--white);
+  border-radius: 40px;
+  background: var(--primary);
+}
+
+.hero__microphone {
+  position: relative;
+}
+
+.hero__microphone::after {
+  content: "";
+  position: absolute;
+  background-image: url("../img/hero/microphone.png");
+  width: 350px;
+  height: 372px;
+  top: -65px;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: center;
 }
