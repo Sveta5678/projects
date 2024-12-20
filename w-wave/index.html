@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" />
 
     <title>W-wave</title>
   </head>
@@ -14,65 +14,374 @@
       <div class="container">
         <div class="header__wrapper">
           <img class="header__logo" src="img/logo.svg" alt="" />
-        
-        <nav class="nav">
-          <ul class="nav__list list-reset">
-            <li class ="nav__item">
-              <a  class="nav__link" href="">Подкасты</a>
-            </li>
-            <li class ="nav__item">
-              <a  class="nav__link" href="">Передачи</a>
-            </li>
-            <li class ="nav__item">
-              <a  class="nav__link" href="">Гости</a>
-            </li>
-            <li class ="nav__item">
-              <a  class="nav__link" href="">Плейлисты</a>
-            </li>
-            <li class ="nav__item">
-              <a  class="nav__link" href="">О нас</a>
-            </li>
-            
-          </ul>
-        </nav>
-        <button class="header__search btn-reset">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
-              stroke="#6D31EE"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-            <path
-              d="M21 21L16.65 16.65"
-              stroke="#6D31EE"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </button>
-      </div>
+
+          <nav class="nav">
+            <ul class="nav__list list-reset">
+              <li class="nav__item">
+                <a class="nav__link" href="">Подкасты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Передачи</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Гости</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">Плейлисты</a>
+              </li>
+              <li class="nav__item">
+                <a class="nav__link" href="">О нас</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__search btn-reset">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11 19C15.4183 19 19 15.4183 19 11C19 6.58172 15.4183 3 11 3C6.58172 3 3 6.58172 3 11C3 15.4183 6.58172 19 11 19Z"
+                stroke="#6D31EE"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M21 21L16.65 16.65"
+                stroke="#6D31EE"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
     <main>
       <section class="hero">
         <div class="container">
           <div class="hero__content hero__microphone">
-            <h1 class="hero__title">Радио 
-              <em class="hero__title-cursive" >W-Wave</em>
-             </h1>
-             <p class="hero__text">
-              Привет, на связи W-Wave! Раньше мы были изданием, а теперь пробуем себя в разоворном жанре. Говорим о музыке, политике, истории, науке и культуре. Здесь, помимо прямого эфира — архив передач и многое другое:)
-             </p>
-             <button class="hero__btn btn-reset">Слушать эфир</button>
+            <h1 class="hero__title">
+              Радио
+              <em class="hero__title-cursive">W-Wave</em>
+            </h1>
+            <p class="hero__text">
+              Привет, на связи W-Wave! Раньше мы были изданием, а теперь пробуем
+              себя в разоворном жанре. Говорим о музыке, политике, истории,
+              науке и культуре. Здесь, помимо прямого эфира — архив передач
+              и многое другое:)
+            </p>
+            <button class="hero__btn btn-reset">Слушать эфир</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="podcasts">
+        <div class="container">
+          <h2 class="podcasts__title site-title">Подкасты</h2>
+          <ul class="podcasts__list list-reset">
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo1.jpg"
+                  alt="обложка подкаста"
+                />
+                <div class="podcasts__content">
+                  <time datetime="15:43" class="podcasts__content-time"
+                    >15:43</time
+                  >
+                  <h3 class="podcasts__content-title">Европа.XIX век</h3>
+                  <p class="podcasts__name-text">Дмитрий Гутенберг</p>
+                  <time class="podcasts__content-date" datetime="2024-06-14"
+                    >14 июня</time
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo2.jpg"
+                  alt=""
+                />
+                <div class="podcasts__content">
+                  <time datetime="08:54" class="podcasts__content-time"
+                    >08:54</time
+                  >
+                  <h3 class="podcasts__content-title">Люди сегодня</h3>
+                  <p class="podcasts__name-text">Анна Васильева</p>
+                  <time class="podcasts__content-date" datetime="2024-06-08"
+                    >8 июня</time
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo3.jpg"
+                  alt=""
+                />
+                <div class="podcasts__content">
+                  <time datetime="07:03" class="podcasts__content-time"
+                    >07:03</time
+                  >
+                  <h3 class="podcasts__content-title">Обо всем</h3>
+                  <p class="podcasts__name-text">Петр Дмитриевский</p>
+                  <time class="podcasts__content-date" datetime="2024-06-02"
+                    >2 июня</time
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo4.jpg"
+                  alt=""
+                />
+                <div class="podcasts__content">
+                  <time datetime="16:04" class="podcasts__content-time"
+                    >16:04</time
+                  >
+                  <h3 class="podcasts__content-title">Источник звука</h3>
+                  <p class="podcasts__name-text">Петр Дмитриевский</p>
+                  <time class="podcasts__content-date" datetime="2024-05-22"
+                    >22 мая</time
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo5.jpg"
+                  alt=""
+                />
+                <div class="podcasts__content">
+                  <time datetime="5:32" class="podcasts__content-time"
+                    >5:32</time
+                  >
+                  <h3 class="podcasts__content-title">О музыке</h3>
+                  <p class="podcasts__name-text">Дмитрий Гутенберг</p>
+                  <time class="podcasts__content-date" datetime="2024-06-11"
+                    >11 июня</time
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo6.jpg"
+                  alt=""
+                />
+                <div class="podcasts__content">
+                  <time datetime="09:15" class="podcasts__content-time"
+                    >09:15</time
+                  >
+                  <h3 class="podcasts__content-title">Физика цвета</h3>
+                  <p class="podcasts__name-text">Татьяна Флеганова</p>
+                  <time class="podcasts__content-date" datetime="2024-05-28"
+                    >28 мая</time
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo7.jpg"
+                  alt=""
+                />
+                <div class="podcasts__content">
+                  <time datetime="06:55" class="podcasts__content-time"
+                    >06:55</time
+                  >
+                  <h3 class="podcasts__content-title">Правила Этикета</h3>
+                  <p class="podcasts__name-text">Татьяна Флеганова</p>
+                  <time class="podcasts__content-date" datetime="2024-05-18"
+                    >18 мая</time
+                  >
+                </div>
+              </div>
+            </li>
+            <li class="podcasts__item">
+              <div class="podcasts__card">
+                <img
+                  class="podcasts__img"
+                  src="img/podcasts/photo8.jpg"
+                  alt="обложка подкаста"
+                />
+                <div class="podcasts__content">
+                  <time datetime="15:43" class="podcasts__content-time"
+                    >15:43</time
+                  >
+                  <h3 class="podcasts__content-title">Европа.XIX век</h3>
+                  <p class="podcasts__name-text">Дмитрий Гутенберг</p>
+                  <time class="podcasts__content-date" datetime="2024-06-14"
+                    >14 июня</time
+                  >
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="broadcast">
+        <div class="container broadcast__container">
+          <h2 class="broadcast__title site-title">Передачи</h2>
+          <ul class="broadcast__list list-reset">
+            <li class="broadcast__item">
+              <img src="img/broadcast/broadcast-1.jpg" alt="обложка передачи" />
+              <div class="broadcast__content">
+                <h3 class="broadcast__content-title">О людях и книгах</h3>
+                <p class="broadcast__content-text">Анонсируется отдельно</p>
+                <a class="broadcast__content-link" href="">
+                  Подробнее
+                  <svg
+                    width="28"
+                    height="12"
+                    viewBox="0 0 28 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
+                      fill="#121723"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="broadcast__item">
+              <img src="img/broadcast/broadcast-2.jpg" alt="обложка передачи" />
+              <div class="broadcast__content">
+                <h3 class="broadcast__content-title">О людях и книгах</h3>
+                <p class="broadcast__content-text">Анонсируется отдельно</p>
+                <a class="broadcast__content-link" href="">
+                  Подробнее
+                  <svg
+                    width="28"
+                    height="12"
+                    viewBox="0 0 28 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
+                      fill="#121723"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="broadcast__item">
+              <img src="img/broadcast/broadcast-3.jpg" alt="обложка передачи" />
+              <div class="broadcast__content">
+                <h3 class="broadcast__content-title">Графомания td</h3>
+                <p class="broadcast__content-text">Анонсируется отдельно</p>
+                <a class="broadcast__content-link" href="">
+                  Подробнее
+                  <svg
+                    width="28"
+                    height="12"
+                    viewBox="0 0 28 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
+                      fill="#121723"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="broadcast__item">
+              <img src="img/broadcast/broadcast-4.jpg" alt="обложка передачи" />
+              <div class="broadcast__content">
+                <h3 class="broadcast__content-title">О людях и книгах</h3>
+                <p class="broadcast__content-text">Анонсируется отдельно</p>
+                <a class="broadcast__content-link" href="">
+                  Подробнее
+                  <svg
+                    width="28"
+                    height="12"
+                    viewBox="0 0 28 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
+                      fill="#121723"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="broadcast__item">
+              <img src="img/broadcast/broadcast-5.jpg" alt="обложка передачи" />
+              <div class="broadcast__content">
+                <h3 class="broadcast__content-title">О людях и книгах</h3>
+                <p class="broadcast__content-text">Анонсируется отдельно</p>
+                <a class="broadcast__content-link" href="">
+                  Подробнее
+                  <svg
+                    width="28"
+                    height="12"
+                    viewBox="0 0 28 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
+                      fill="#121723"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+            <li class="broadcast__item">
+              <img src="img/broadcast/broadcast-6.jpg" alt="обложка передачи" />
+              <div class="broadcast__content">
+                <h3 class="broadcast__content-title">О людях и книгах</h3>
+                <p class="broadcast__content-text">Анонсируется отдельно</p>
+                <a class="broadcast__content-link" href="">
+                  Подробнее
+                  <svg
+                    width="28"
+                    height="12"
+                    viewBox="0 0 28 12"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M24.3536 6.35355C24.5488 6.15829 24.5488 5.84171 24.3536 5.64645L21.1716 2.46447C20.9763 2.2692 20.6597 2.2692 20.4645 2.46447C20.2692 2.65973 20.2692 2.97631 20.4645 3.17157L23.2929 6L20.4645 8.82843C20.2692 9.02369 20.2692 9.34027 20.4645 9.53553C20.6597 9.7308 20.9763 9.7308 21.1716 9.53553L24.3536 6.35355ZM4 6.5H24V5.5H4V6.5Z"
+                      fill="#121723"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+          <div class="broadcast__archive">
+            <button class="broadcast__btn-archive btn-reset">Архив</button>
+            <p class="broadcast__text-archive">
+              В архив попадают все передачи, которые вы пропустили! Enjoy:)
+            </p>
           </div>
         </div>
       </section>
