@@ -539,3 +539,112 @@ img {
   color: var(--white);
   border-color: var(--primary-shade);
 }
+/* playlists */
+.playlists {
+  padding: 94px 0;
+
+}
+
+
+
+.playlists__content {
+  display: flex;
+  gap: 30px;
+}
+
+.playlists__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 350px;
+}
+
+.playlists__title {
+  padding-bottom: 12px;
+}
+
+
+
+.playlists__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 137%;
+    color: var(--text-gray);
+    width: 100%;
+
+}
+
+.playlists__year {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 137%;
+    color: var(--text-gray);
+    padding-bottom: 6px;
+}
+
+.playlists__age {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--text-gray);
+    border: 1px solid var(--text-gray);
+      border-radius: 100px;
+      padding: 6px  3.5px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+}
+
+.playlists-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+
+.playlists__item {
+  width: 160px;
+  min-height: 224px;
+  display: flex;
+  flex-direction: column;
+  font-size: 0;
+}
+
+.playlists__photo {
+  position: relative;
+}
+
+.playlists__flag {
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.playlists__flag--ru {
+  background-image:url("../img/playlists/flag-ru.svg");
+}
+
+.playlists__item-content {
+  padding: 15px;
+  border: 1px solid var(--light-color);
+}
+
+.playlists__item-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--black);
+  margin-bottom: 4px;
+}
+.playlists__item-text {
+
+  font-weight: 400;
+  font-size: 12px;
+  color: var(--text-gray);
+}
+
+.playlists__flag--en {
+ background-image: url("../img/playlists/flag-en.svg");
+}
