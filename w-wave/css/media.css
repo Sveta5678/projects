@@ -1,0 +1,182 @@
+@media(max-width:1200px) {
+    .container {
+        max-width: 940px;
+    }
+
+    .hero__microphone::after {
+        background-image: url("../img/hero/microphone-1024.png");
+        width: 260px;
+        height: 272px;
+        top: -15px;
+    }
+
+    .about__content-decor {
+        width: 255px;
+        height: 305px;
+        background-image: url("../img/about/decor-1024.png");
+    }
+
+    .broadcast__list {
+        --elements-broadcast: 2;
+
+    }
+
+    .playlists-list {
+
+        --elements-playlists: 3;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container {
+        max-width: 824px;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header__wrapper {
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 0;
+
+    }
+
+    .header__logo {
+        order: 1;
+        margin-bottom: 33px;
+        width: 112px;
+    }
+
+    .header__search {
+        order: 2;
+    }
+
+    .nav {
+        order: 3;
+        width: 100%;
+        padding: 22px 0;
+
+
+    }
+
+    .nav::after {
+        content: "";
+        background-color: var(--light-color);
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+
+    .nav::before {
+        content: "";
+        background-color: var(--light-color);
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 62px;
+
+    }
+
+
+
+    .nav__list {
+        justify-content: space-between;
+    }
+
+    .hero__text {
+        max-width: 539px;
+        margin-bottom: 20px;
+    }
+
+    .hero {
+        padding: 90px 0;
+    }
+
+    .guests__text {
+        max-width: 539px;
+    }
+
+    .guests__list-btn {
+        padding: 8px 19.5px;
+    }
+
+    .playlists__content {
+        flex-direction: column;
+    }
+
+    .playlists__item {
+        flex-direction: row;
+    }
+
+    .playlists__wrapper {
+        max-width: 100%;
+    }
+
+    .playlists__item-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 0 0 10px;
+    }
+
+    .playlists__flag {
+        left: 0;
+    }
+
+    .adv {
+        padding: 94px 0;
+    }
+
+    .adv__box-img::before {
+        top: 0;
+        background: url("../img/adv/new-1024.svg") no-repeat;
+        width: 100px;
+        height: 100px;
+    }
+
+    .adv__wrapper {
+        max-width: 396px;
+    }
+
+    .adv__price {
+        margin-bottom: 24px;
+    }
+
+    .about__text {
+        max-width: 539px;
+    }
+
+    .about__content-decor {
+        height: 305px;
+        background-position: -25px 49px;
+    }
+
+    .about__list {
+
+        --elements-about: 2;
+
+    }
+
+    .about__item-img {
+        margin-bottom: 24px;
+    }
+
+    .about {
+        padding-bottom: 92px;
+    }
+
+    .footer__logo {
+        margin-bottom: 11px;
+    }
+        .footer-nav__list {
+            
+            gap: 20px 96px;
+        }
+}
