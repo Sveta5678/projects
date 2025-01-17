@@ -1,10 +1,10 @@
 @font-face {
   font-family: "Muller";
-  font-style: italic;
+  font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: url("../fonts/Muller-Trial-LightItalic.woff2"),
-    url("../fonts/Muller-Trial-LightItalic.woff");
+  src: url("../fonts/MullerLight.woff2") format("woff2"),
+    url("../fonts/MullerLight.woff") format("woff");
 }
 
 @font-face {
@@ -12,8 +12,8 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Muller-Trial-Regular.woff2"),
-    url("../fonts/Muller-Trial-Regular.woff");
+  src: url("../fonts/MullerRegular.woff2") format("woff2"),
+    url("../fonts/MullerRegular.woff") format("woff");
 }
 
 @font-face {
@@ -21,8 +21,8 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url("../fonts/Muller-Trial-RegularItalic.woff2"),
-    url("../fonts/Muller-Trial-RegularItalic.woff");
+  src: url("../fonts/MullerRegularItalic.woff2") format("woff2"),
+    url("../fonts/MullerRegularItalic.woff") format("woff");
 }
 
 @font-face {
@@ -30,8 +30,8 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url("../fonts/Muller-Trial-Medium.woff2"),
-    url("../fonts/fonts/Muller-Trial-Medium.woff");
+  src: url("../fonts/MullerMedium.woff2") format("woff2"),
+    url("../fonts/MullerMedium.woff") format("woff");
 }
 
 @font-face {
@@ -39,8 +39,8 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url("../fonts/Muller-Trial-Bold.woff2"),
-    url("../fonts/Muller-Trial-Bold.woff");
+  src: url("../fonts/MullerBold.woff2") format("woff2"),
+    url("../fonts/MullerBold.woff") format("woff");
 }
 
 html {

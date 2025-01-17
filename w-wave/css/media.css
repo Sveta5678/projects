@@ -175,8 +175,100 @@
     .footer__logo {
         margin-bottom: 11px;
     }
-        .footer-nav__list {
-            
-            gap: 20px 96px;
-        }
+
+    .footer-nav__list {
+
+        gap: 20px 96px;
+    }
+}
+
+@media(max-width:992px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+    .nav__list {
+
+        gap: 0px;
+    }
+
+    .hero__microphone::after {
+        display: none;
+    }
+
+    .podcasts__list {
+        --elements-podcasts: 1;
+
+    }
+
+    .nav__link {
+        font-size: 16px;
+    }
+
+    .broadcast__container {
+        flex-direction: column;
+        position: static;
+        gap: 0;
+    }
+
+    .broadcast {
+        position: relative;
+        padding-bottom: 38px;
+    }
+
+    .broadcast__archive {
+        max-width: 255px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-left: 90px;
+        top: 8px;
+        left: 18%;
+        padding-top: 30px;
+    }
+
+    .broadcast__archive::before {
+
+        background: url("../img/broadcast/mic.svg") center no-repeat;
+        width: 70px;
+        height: 96px;
+        position: absolute;
+        left: 0;
+
+
+    }
+
+    .broadcast__btn-archive {
+        padding: 8px 53.5px;
+        margin-bottom: 8px;
+    }
+
+    .broadcast__text-archive {
+        width: 255px;
+    }
+
+    .broadcast__list {
+        margin-top: 0px;
+        --elements-broadcast: 2;
+        padding-bottom: 56px;
+    }
+
+    .broadcast__list::after {
+        content: '';
+        width: 100%;
+        position: absolute;
+        bottom: 156px;
+        right: 0;
+        left: 0;
+        height: 1px;
+        background-color: var(--light-color);
+    }
+
+    .broadcast__title {
+        margin-bottom: 123px;
+    }
+
+
+
 }
