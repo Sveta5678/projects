@@ -739,6 +739,7 @@ img {
   background-position: bottom;
   background-repeat: no-repeat;
   padding-bottom: 31px;
+  max-width: 441px;
 }
 
 
