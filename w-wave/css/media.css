@@ -384,7 +384,7 @@
         border-radius: 40px;
         padding: 25px 10px 25px 32px;
         flex: 1 1 50%;
-        height: 70px;
+
         color: white;
         outline: none;
         background-color: transparent;
@@ -435,6 +435,7 @@
         margin-bottom: 0px;
         width: 87px;
     }
+
 
     .header__wrapper {
         padding-top: 23px;
@@ -633,5 +634,199 @@
     .guests__list {
         gap: 30px;
     }
+
+    .playlists {
+        padding: 54px 0 54px;
+    }
+
+    .playlists__text {
+
+        font-size: 12px;
+        line-height: 133%;
+    }
+
+    .playlists__year {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 183%;
+
+    }
+
+    .playlists__age {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: var(--text-gray);
+        border: 1px solid var(--text-gray);
+        border-radius: 100px;
+        padding: 6px 3.5px;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .playlists__item {
+        flex-direction: column;
+    }
+
+    .playlists__flag {
+        right: 0;
+        left: auto;
+    }
+
+    .playlists__item-title {
+        font-size: 12px;
+        margin-bottom: 3px;
+    }
+
+
+
+    .playlists__item-text {
+        font-size: 9px;
+        white-space: nowrap;
+    }
+
+    .playlists__item-content {
+        padding: 10px 10px 7px;
+    }
+
+    .playlists {
+        padding: 54px 0 56px;
+    }
+
+    .adv__box-img::before {
+        background: url("../img/adv/new-320.svg") no-repeat;
+        width: 62px;
+        height: 62px;
+    }
+
+    .adv {
+        padding-bottom: 54px;
+    }
+
+    .adv__content {
+        gap: 31px;
+
+    }
+
+    .adv__text {
+
+        font-size: 14px;
+        line-height: 160%;
+
+    }
+
+    .adv__title {
+        background: none;
+        padding-bottom: 9px;
+    }
+
+    .adv__price {
+        font-weight: 500;
+        font-size: 24px;
+        color: var(--white);
+        margin-bottom: 17px;
+    }
+
+    .adv__text-second {
+        margin-bottom: 7px;
+    }
+
+    .adv__btn {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 100%;
+        color: var(--promo-color);
+        padding: 13px;
+    }
+
+    .about {
+        padding: 54px 0 51px;
+        background: var(--black);
+    }
+
+    .about__subtitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 150%;
+        color: var(--text-gray);
+        margin-bottom: 4px;
+    }
+
+    .about__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 158%;
+    }
+
+    .about__content-decor {
+        display: none;
+    }
+
+    .about__content {
+        padding-bottom: 30px;
+    }
+
+    .about__item-name {
+        width: 100px;
+        font-size: 14px;
+        line-height: 129%;
+
+
+
+    }
+
+    .about__item-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 133%;
+        color: var(--text-gray);
+    }
+
+    .about__item-img {
+        margin-bottom: 7px;
+    }
+
+    .form__textarea {
+        border-radius: 20px;
+        padding: 17px 10px 10px 24px;
+        font-size: 16px;
+    }
+
+    .about__list {
+        margin-bottom: 26px;
+    }
+
+    .form__input {
+        padding: 15px 24px;
+
+    }
+
+    .form__btn {
+        padding: 15px 45px;
+        font-size: 16px;
+        align-self: flex-start;
+    }
+
+    .form__checkbox-text {
+
+        font-size: 9px;
+        ;
+    }
+
+    .form__send {
+        gap: 20px;
+    }
+
+        .footer-nav__list {
+        background: var(--black);
+        }
+                .footer {
+                    padding-top: 54px;
+                }
+
+
 
 }
